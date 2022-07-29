@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: system-ui;
+}
+body{
+    background-color: #eee;
+    width: 90%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+nav h2{
+    color: #0ba062;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+ul li a:hover{
+    color: #0ba062;
+    transition: 0.2s;
+}
+nav #sign{
+    border: black solid 1px;
+    margin: 0 20px;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+nav #join{
+    background-color: black;
+    padding: 6px 12px;
+    border-radius: 14px;
+    color: white;
+}
+#Home{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+.txt{
+    padding-right: 160px;
+}
+.txt h1{
+    color: #0ba062;
+    letter-spacing: 1px;
+    margin: 12px 0;
+    text-transform: uppercase;
+}
+.txt span{
+    color: black;
+}
+#Home .image img{
+    width: 340px;
+}
+.dark{
+    background-color: #090909;
+    color: white;
+}
+.dark a{
+    color: white;
+}
+.dark #join{
+    border: white solid 1px;
+    padding: 4px 10px;
+}
+.dark span{
+    color: white;
+}
+#Dark:hover{
+    border: 1px solid #0ba062;
+    padding: 6px;
+    transition: 0.2s;
+    border-radius: 8px;
+}
+.txt button{
+    background-color: #0ba062;
+    padding: 8px;
+    margin: 20px 0;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 0.4rem;
+}
